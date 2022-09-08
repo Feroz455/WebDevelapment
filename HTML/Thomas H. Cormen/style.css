@@ -1,0 +1,23 @@
+body {
+  color: #000068;
+}
+a :active,
+:visited,
+:link {
+  color: blue;
+}
+table td,
+table td * {
+  vertical-align: top;
+  margin-top: 0;
+}
+.Unorder {
+  list-style-image: url("images/yellows.gif");
+}
+.label {
+  color: #fff;
+  font-size: small;
+  background: rgba(13, 139, 223, 0.884);
+  padding: 3px;
+  border-radius: 10px;
+}
