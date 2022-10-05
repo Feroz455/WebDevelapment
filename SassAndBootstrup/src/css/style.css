@@ -1,0 +1,178 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+
+.Header1 {
+  font-weight: bold;
+}
+.Header1 .head {
+  color: #fff;
+  font-size: 12px;
+}
+.Header1 .head span {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.Header1 .head .fas {
+  font-size: 12px;
+}
+
+.dropdown-menu {
+  background-color: #212529;
+}
+.dropdown-menu .dropdown-item {
+  color: #fff;
+}
+.dropdown-menu .dropdown-item:hover {
+  color: #212529;
+}
+
+main {
+  color: #fff;
+  height: 600px;
+  display: flex;
+  background-color: #DFB758;
+  justify-content: center;
+  align-items: center;
+}
+main .contentTitle {
+  display: flex;
+  width: 80%;
+  justify-content: center;
+}
+main .contentTitle div h1 {
+  color: #fff;
+  font-weight: bold;
+  width: 50%;
+}
+main .contentTitle div .myButton {
+  background-color: #212529;
+  border: 2px solid #fff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 12px;
+  margin-top: 50px;
+}
+main .contentTitle div .myButton:hover {
+  transition: 0.6s;
+  background-color: #fff;
+  color: #212529;
+}
+main .contentTitle div img {
+  display: inline-block;
+  position: relative;
+  left: 100px;
+}
+
+.section1 {
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+.section1 h1,
+.section1 h5,
+.section1 p,
+.section1 ul {
+  text-align: justify;
+}
+.section1 ul {
+  font-size: 0.9rem;
+  line-height: 2rem;
+}
+.section1 h5 {
+  color: #DFB758;
+  font-weight: bolder;
+}
+.section1 p {
+  color: #383f45;
+  font-weight: normal;
+}
+.section1 h1 {
+  color: #333333;
+  font-weight: bold;
+}
+
+.section2 .secton2head h1 {
+  color: #333333;
+  text-align: center;
+  font-weight: bold;
+}
+.section2 .secton2head h1 .Product {
+  color: #DFB758;
+}
+
+.section3 .card {
+  height: 350px;
+  border-radius: 30px;
+  text-align: center;
+}
+.section3 .cardText {
+  font-weight: bold;
+}
+.section3 .cardButton {
+  position: relative;
+  top: 20px;
+  background-color: #d7a52d;
+  color: #fff;
+  font-weight: bold;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: 1px solid transparent;
+  border-radius: 30px;
+}
+
+.section4 {
+  height: 300px;
+  background-image: url(/src/img/bg2.png);
+  opacity: 0.8;
+}
+.section4 h1 {
+  font-weight: bold;
+  color: #fff;
+}
+.section4 p {
+  font-size: 1.3rem;
+  color: #fff;
+}
+
+.section5 h1 {
+  color: #DFB758;
+}
+.section5 .quats {
+  background-color: #F8F8F8;
+  height: auto;
+  width: 300px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+hr {
+  border-top: 10px dotted black;
+  width: 5%;
+}
+
+.section6 {
+  background-color: #dfdfdf;
+}
+.section6 h1 {
+  color: #DFB758;
+}
+.section6 .fromBox {
+  padding-right: 60%;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border: 1px solid transparent;
+}
+.section6 .fromBox:focus {
+  border: 1px solid transparent;
+}
+.section6 .fromBotton {
+  border: 3px solid #DFB758;
+  color: #DFB758;
+  font-weight: bold;
+}
+
+/*# sourceMappingURL=style.css.map */
